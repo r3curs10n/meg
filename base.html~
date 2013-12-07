@@ -10,9 +10,6 @@
 <input type="text" id="topline" placeholder="Top line" />
 <input type="text" id="bottomline" placeholder="Bottom line" />
 <input type="button" id="save" value="Save" />
-<div>
-Note: After clicking save, name the file as whateverYouWant.png
-</div>
 </div>
 <div><img id="vicp" src="vicp.jpg" /></div>
 

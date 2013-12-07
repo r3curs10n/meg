@@ -1,0 +1,19 @@
+{
+  "name" : "MeG",
+  "version" : "1.0.1",
+  "description" : "Create memes from images in your browser",
+  "background" : { "scripts": ["background.js"] },
+  "permissions" : [
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+   ],
+  "minimum_chrome_version" : "6.0.0.0",
+  "icons" : {
+    "16" : "imageinfo-16.png",
+    "48" : "imageinfo-48.png",
+    "128" : "imageinfo-128.png"
+  },
+  "manifest_version": 2
+}

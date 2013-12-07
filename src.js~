@@ -16,7 +16,7 @@ $("#vicp").load(function(){
 
 $("#save").click(function(){
 	var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream")
-	window.location=image
+	window.location.href=image
 });
 
 $("#topline").keyup(function(){
